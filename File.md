@@ -1,9 +1,8 @@
 
 
-**NDHB Compliance**
+**NDHB Compliance MVP -Based on indEA Architecture with CQRS & Event Sourcing:
+**
 -----------------------------------------------------------------------------------------------------------------------------------------
-
-* Based on indEA Architecture with CQRS & Event sourcing:
 
 
 **NDHB/indEA Architecture**
