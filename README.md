@@ -32,7 +32,3 @@
 **Spring Cloud Security:**
 --------------------------------------------------------------------------------------------------------------------------------------
 #### Spring Cloud Security is the framework authorization and authentication that controls the service access and what can the service do when invoked by a customer. It’s a token-based framework that allows the services to communicate within themselves through the token issued by the authentication server. Each service that receives a call checks the token in the HTTP call to validate the identity of the user and their access rights for the service. Spring Cloud Security also supports the JavaScript web token which is a framework that standardizes the format of how OAuth token created and provides standards for digital signatures of the token. 
-
-**Provisioning:**
---------------------------------------------------------------------------------------------------------------------------------------
-#### The Spring framework is made for application development and it doesn’t have tools for building as well as deployment creation. To implement it we require various tools like Travis CI for Build Tool and Docker for creation of the final image of the microservice that helps in deployment. 
