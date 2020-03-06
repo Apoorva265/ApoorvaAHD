@@ -4,11 +4,13 @@
 
 **Spring Cloud Configuration:**
 --------------------------------------------------------------------------------------------------------------------------------------
-#### Spring Cloud Configuration handles the management of cloud configuration data via centralized configuration which separates the application configuration data with the deployed microservices. It ensures that regardless of any new number of microservices being introduced in the application, their configurations remain the same. The spring cloud config has its property management repository but sometimes it integrates with open source projects like Git, Consul & Eureka.
+#### Spring Cloud Configuration handles the management of cloud configuration data via centralized configuration which separates the application configuration data with the deployed microservices. It ensures that regardless of any new number of microservices being introduced in the application, their configurations remain the same. 
+#### The spring cloud config has its property management repository but sometimes it integrates with open source projects like Git, Consul & Eureka.
 
 **Service Discovery:**
 --------------------------------------------------------------------------------------------------------------------------------------
-#### In spring Cloud service discovery, the physical location of the servers deployed is hidden from the clients and it’s consumed using services. Thus, the servers call the business logic for the server using the name assigned to it rather than the physical location of the logic. It also handles the boot strap services and registration as well as the deregistration of the services. Some of the common examples for the service discovery are Consul and Eureka.
+#### In spring Cloud service discovery, the physical location of the servers deployed is hidden from the clients and it’s consumed using services. 
+#### Thus, the servers call the business logic for the server using the name assigned to it rather than the physical location of the logic. It also handles the boot strap services and registration as well as the deregistration of the services. Some of the common examples for the service discovery are Consul and Eureka.
 
 **Spring Cloud/Netflix Hystrix and Ribbon:**
 --------------------------------------------------------------------------------------------------------------------------------------
@@ -24,7 +26,8 @@
 
 **Spring Cloud Sleuth:**
 --------------------------------------------------------------------------------------------------------------------------------------
-#### Spring Cloud Sleuth helps integrate tracking identifiers into message brokers (RabbitMQ & Kafka) and HTTP calls being used in the microservices. These tracking identities are also known as trace IDs or Correlation, it allows the application to track the transactions flow in the microservices application. In Spring Cloud Sleuth, these tracking IDs are automatically stored in any logging statements of the microservices application. Sometimes, the spring cloud sleuth is combined with logging technology tools like Papertrail (It is a cloud-based logging platform that helps in clustering all the logs in real-time from various microservices into one database) and Tracing tools like Zipkin (It helps in taking data from the spring cloud sleuth and visualizing the flow of the service calls involved in a single transaction).
+#### Spring Cloud Sleuth helps integrate tracking identifiers into message brokers (RabbitMQ & Kafka) and HTTP calls being used in the microservices. These tracking identities are also known as trace IDs or Correlation, it allows the application to track the transactions flow in the microservices application. 
+#### In Spring Cloud Sleuth, these tracking IDs are automatically stored in any logging statements of the microservices application. Sometimes, the spring cloud sleuth is combined with logging technology tools like Papertrail (It is a cloud-based logging platform that helps in clustering all the logs in real-time from various microservices into one database) and Tracing tools like Zipkin (It helps in taking data from the spring cloud sleuth and visualizing the flow of the service calls involved in a single transaction).
 
 **Spring Cloud Security:**
 --------------------------------------------------------------------------------------------------------------------------------------
